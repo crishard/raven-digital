@@ -8,7 +8,7 @@ import { SocialContact } from "./SocialContact";
 
 export const Contact = () => {
   return (
-    <section className="sm:px-20 px-10 bg-secondary text-center py-32 relative">
+    <section className="sm:px-20 px-10 bg-secondary text-center py-32 relative" id="contact">
       <HeaderSections title="Contact us" />
 
       <div className="text-letters text-start grid grid-cols-2 max-[740px]:grid-cols-1 pt-16 gap-16 ">

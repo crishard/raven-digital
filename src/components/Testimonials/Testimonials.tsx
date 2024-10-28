@@ -10,7 +10,7 @@ export default function Testimonials() {
     };
 
     return (
-        <div className="flex justify-center items-center py-24 sm:px-24 px-10 bg-secondary">
+        <div className="flex justify-center items-center py-24 sm:px-24 px-10 bg-secondary" id='testimonials'>
 
             <div className="lg:flex block  gap-12 items-center">
                 <Zoom duration={1500} triggerOnce={true} className='w-full lg:block flex justify-center lg:pb-0 pb-10'>

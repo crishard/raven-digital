@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <header>
             <NavBar />
-            <section className="pt-36 bg-secondary text-letters lg:pl-20 lg:grid grid-cols-2 gap-10 lg:px-0 md:px-20 px-10 block">
+            <section className="pt-36 bg-secondary text-letters lg:pl-20 lg:grid grid-cols-2 gap-10 lg:px-0 md:px-20 px-10 block" id="about">
                 <div className="">
                     <Fade triggerOnce={true} cascade direction="down" duration={800}>
                         <h1 className="lg:text-6xl text-5xl font-bold pb-8">WE ARE <span className="block">DIGITAL AGENCY</span></h1>
