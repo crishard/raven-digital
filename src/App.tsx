@@ -1,4 +1,6 @@
 
+import Blog from './components/Blog/Blog'
+import { Footer } from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import { Services } from './components/Services/Services'
 import { Team } from './components/Team/Team'
@@ -18,6 +20,8 @@ function App() {
       <ScrollWorks />
       <Testimonials />
       <Team />
+      <Blog />
+      <Footer />
     </main>
   )
 }
