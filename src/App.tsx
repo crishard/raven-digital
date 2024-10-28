@@ -1,6 +1,7 @@
 
 import Blog from './components/Blog/Blog'
 import { Clients } from './components/Clients/Clients'
+import { Contact } from './components/Contact/Contact'
 import { Footer } from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import { Services } from './components/Services/Services'
@@ -23,6 +24,7 @@ function App() {
       <Team />
       <Blog />
       <Clients />
+      <Contact />
       <Footer />
     </main>
   )
