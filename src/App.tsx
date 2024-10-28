@@ -1,13 +1,14 @@
 
+import Header from './components/Header/Header'
 import './index.css'
 
 function App() {
- 
+
 
   return (
-    <>
-      <h1 className=''>olá</h1>
-    </>
+    <main>
+      <Header />
+    </main>
   )
 }
 
