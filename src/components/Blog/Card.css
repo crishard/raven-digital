@@ -1,0 +1,9 @@
+.blog-relative {
+    height: 100%;
+    cursor: pointer;
+    background-color: #11161c;
+    border-top-right-radius: 90px;
+    padding: 24px 22px 50px;
+    position: relative;
+    overflow: hidden;
+}
