@@ -12,7 +12,7 @@ const Blog: React.FC = () => {
       </div>
 
       <div className="flex justify-center gap-8 flex-wrap py-10 pb-20 ">
-        <Zoom triggerOnce={true} cascade duration={800}>
+        <Zoom triggerOnce={true} duration={800}>
           {blogData.map((item, index) => (
             <Card
               key={index}

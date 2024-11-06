@@ -7,7 +7,7 @@ export const Footer = () => {
     return (
         <footer className="bg-primary flex justify-center text-center py-16 sm:px-20 px-10">
             <div>
-                <Fade direction="down" duration={800} cascade triggerOnce={true}>
+                <Fade direction="down" duration={800} triggerOnce={true}>
                     <TopFooter />
                     <FooterServices />
                     <SocialFooter />
