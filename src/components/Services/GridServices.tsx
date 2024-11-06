@@ -5,7 +5,7 @@ import { servicesData } from "./services";
 
 export const GridServices = () => {
     return (
-        <div className="sm:grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 block gap-3">
+        <div className="flex flex-wrap gap-3">
             <Fade direction="left" cascade triggerOnce={true} duration={800}>
                 {servicesData.map((service, index) => (
                     <CardServices key={index} title={service.title} text={service.text} icon={service.icon} />
